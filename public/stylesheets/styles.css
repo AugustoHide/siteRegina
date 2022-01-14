@@ -129,3 +129,138 @@
         border: red solid green;
     }
 }
+.contatosDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+.contatosDiv1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    background-color: rgb(47, 41, 58);
+    color: aliceblue;
+}
+.contatosMapaDiv{
+    width: 45%;
+    margin-left: 5%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.contatosContatosDiv{
+    width: 45%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 3% 0;
+    padding-left: 10%;
+}
+.contatosMapa{
+    width: 80%;
+    height: 60%;
+    background-image: url('../images/mapa-400px.jpeg');
+    background-size: cover;
+}
+.contatosMapaText{
+    align-self: flex-start;
+    margin-left: 20%;
+}
+.contatoTextCentral{
+    text-align: center;
+}
+
+.contatosItem > h3{
+    font-size: 170%;
+}
+
+.contatosItem > a{
+    text-decoration: none;
+    background-color: #303b12;
+    color: white;
+    padding: 5px 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.contatoshover:hover{
+    color: white;
+    /* position: fixed;
+    height: max-content;
+    transform: translate(0px, -10%);
+    transition: 1s; */
+}
+
+@media (max-width: 768px){
+    .contatosMapaDiv{
+        width: 100%;
+        flex-shrink: 0;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+    .contatosMapaText{
+        align-self: flex-start;
+        margin-left: 10%;
+    }
+    .contatosContatosDiv{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        height: 30rem;
+    }
+}
+
+.headerArticle{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#depressaoHeader{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url('../images/depressao.jpg');
+}
+#orentacaoProf{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url('../images/bifurcacao.jpg');
+    background-position-y: 75%;
+}
+#emConstrucao{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url('../images/emConstrucao.jpg');
+}
+.headerbackground{
+    width: 90%;
+    height: 80%;
+    background-size: cover;
+    background-position-x: 40%;
+    background-position-y: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    text-align: center;
+}
+
+.headerMainTitle{
+    margin: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.2rem;
+}
+.headerSubtitle{
+    font-family: 'Playfair Display', serif;
+}
+.text{
+    margin: 0 15%;
+}
