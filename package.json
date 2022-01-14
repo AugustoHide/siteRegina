@@ -4,7 +4,7 @@
   "description": "diretório para site de psicóloga Regina",
   "main": "app.js",
   "scripts": {
-    "start": "npm start"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
