@@ -1,0 +1,131 @@
+.carousel-item{
+    height: 75vh;
+}
+.alignCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    background-image: url('../images/happy.jpg');
+    background-size: cover;
+    height: 100%;
+    padding-left: 15%;
+
+}
+.headline{
+    font-family: 'Great Vibes', cursive;
+    font-size: 400%;
+}
+.subheadline{
+    font-family: 'Shippori Antique', sans-serif;
+    width: 45%;
+}
+.carousel2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.leftSide{
+    width: 50%;
+    height: 75vh;
+    background-image: url('../images/familia.jpg');
+    background-size: cover;
+}
+.rightSide{
+    width: 50%;
+    height: 75vh;
+    background-image: url('../images/casal.jpg');
+    background-size: cover;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img50{
+    width: 100%;
+    height: 100%;
+}
+.carousel3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    background-image: url('../images/barras.jpg');
+    background-size: cover;
+    height: 100%;
+    padding-left: 15%;
+}
+
+.quemsou{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3rem 0;
+}
+..sobreMim{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5rem 0;
+}
+.sobreMimImgDiv{
+    width: 25%;
+    margin-left: 15%;
+
+}
+.sobreMimTextDiv{
+    width: 45%;
+    margin-right: 15%;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+
+}
+.sobreMimImg{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/aceEx.jpg');
+    background-size: cover;
+    background-position-x: 75%;
+    background-position-y: 50%;
+
+}
+.sobreMimTextTitle{
+    margin: 1rem 1rem;
+}
+.sobreMimTextItem{
+    margin: 1rem 1rem;
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .sobreMimImg{
+        height: 20rem;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 768px){
+    .sobreMimImgDiv{
+        width: 70%;
+        border: red solid green;
+    }
+    .sobreMimTextDiv{
+        width: 90%;
+        margin: 0 5%;
+    
+    }
+    .sobreMimImg{
+        width: 100%;
+        height: 20rem;
+        background-image: url('../images/sobremim.jpg');
+        background-size: cover;
+        background-position-x: 75%;
+        background-position-y: 50%;
+        
+        border: red solid green;
+    }
+}

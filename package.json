@@ -1,0 +1,24 @@
+{
+  "name": "siteregina",
+  "version": "1.0.0",
+  "description": "diretório para site de psicóloga Regina",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AugustoHide/siteRegina.git"
+  },
+  "author": "AugustoHS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AugustoHide/siteRegina/issues"
+  },
+  "homepage": "https://github.com/AugustoHide/siteRegina#readme",
+  "dependencies": {
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.2",
+    "path": "^0.12.7"
+  }
+}
