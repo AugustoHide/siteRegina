@@ -1,5 +1,7 @@
 .carousel-item{
     height: 75vh;
+    
+    font-family: 'Shippori Antique', sans-serif;
 }
 .alignCenter{
     display: flex;
