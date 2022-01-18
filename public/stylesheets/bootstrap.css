@@ -3018,6 +3018,14 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+.btn-cta-branco{
+  background-color: #ebcef7;
+  color: #351f5e;
+  font-family: 'Lora', serif;
+  width: fit-content;
+}
+}
+
 .btn-primary {
   color: #fff;
   background-color: #0d6efd;
