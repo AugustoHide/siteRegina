@@ -5,7 +5,7 @@
 }
 
 .carousel-1{
-    background-image: url('../images/womanHappy6-edit1.jpg');
+    background-image: url('../images/womanHappy6-edit1-min.jpg');
     background-size: cover;
     background-position-y: 60%;
 }
@@ -40,7 +40,7 @@
 
 
 .carousel-2{
-    background-image: url('../images/psicoterapia.jpg');
+    background-image: url('../images/psicoterapia-min.jpg');
     background-size: cover;
     background-position-y: 50%;
     font-family: 'Lora', serif;
@@ -65,7 +65,7 @@
 
 
 .carousel-3{
-    background-image: url('../images/womanHappy5.jpg');
+    background-image: url('../images/womanHappy5-min.jpg');
     background-size: cover;
     background-position-y: 30%;
     font-family: 'Lora', serif;
@@ -136,7 +136,7 @@
 .beneficios-lado-direito{
     width: 45%;
     margin-right: 15%;
-    background-image: url('../images/flowerCamp.jpg');
+    background-image: url('../images/flowerCamp-min.jpg');
     background-size: cover;
     background-position-y: 40%;
 }
@@ -151,7 +151,7 @@
 .principaisTratamentos-dir{
     margin-left: 15%;
     width: 45%;
-    background-image: url('../images/problems.jpg');
+    background-image: url('../images/problems-min-reduce.jpg');
     background-size: cover;
     background-position-y: 65%;
 }
@@ -257,22 +257,22 @@
 }
 
 #psicoterapia{
-    background-image: url('../images/psicoterapia.jpg');
+    background-image: url('../images/psicoterapia-min.jpg');
     background-position-y: 50%;
 }
 
 #biomagnetismo{
-    background-image: url('../images/biomagnetismo1.jpg');
+    background-image: url('../images/biomagnetismo1-min.jpg');
     background-position-y: 30%;
 }
 
 #barras{
-    background-image: url('../images/barras.jpg');
+    background-image: url('../images/barras-min.jpg');
     background-position-y: 30%;
 }
 
 #multidimensional{
-    background-image: url('../images/multidimensional2.jpg');
+    background-image: url('../images/multidimensional2-min.jpg');
     background-position-y: 60%;
 
 }
@@ -354,31 +354,31 @@
 }
 
 #crianca-img{
-    background-image: url('../images/crianca.jpg');
+    background-image: url('../images/crianca-min.jpg');
 }
 
 #familia-img{
-    background-image: url('../images/familia.jpg');
+    background-image: url('../images/familia-min.jpg');
     background-position-y: 100%;
 }
 
 #barras-beneficios-img{
-    background-image: url('../images/barras3.jpg');
+    background-image: url('../images/barras3-min.jpg');
     background-position-y: 100%;
 }
 
 #biomagnetismo-beneficios-img{
-    background-image: url('../images/biomagnetismo2.jpg');
+    background-image: url('../images/biomagnetismo2-min.jpg');
     background-position-y: 100%;
 }
 
 #barras-como-img{
-    background-image: url('../images/barras4.jpg');
+    background-image: url('../images/barras4-min.jpg');
     background-position-y: 100%;
 }
 
 #multidimensional-beneficios-img{
-    background-image: url('../images/womanHappy5.jpg');
+    background-image: url('../images/womanHappy5-min.jpg');
     background-position-y: 100%;
 }
 
@@ -403,22 +403,22 @@
 }
 
 #casal-img{
-    background-image: url('../images/casal.jpg');
+    background-image: url('../images/casal-min.jpg');
     background-position-y: 50%;
 }
 
 #biomagnetismo-como-img{
-    background-image: url('../images/biomagnetismo3.jpg');
+    background-image: url('../images/biomagnetismo3-min.jpg');
     background-position-y: 50%;
 }
 
 #barras-quem-img{
-    background-image: url('../images/barras2.jpg');
+    background-image: url('../images/barras2-min.jpg');
     background-position-y: 50%;
 }
 
 #multidimensional-como-img{
-    background-image: url('../images/barras2.jpg');
+    background-image: url('../images/barras2-min.jpg');
     background-position-y: 50%;
 }
 
