@@ -395,6 +395,7 @@
     }
     .aba-titulo{
         min-width: 30vw;
+        max-width: 40vw;
         padding: 1rem 1rem;
         font-size: 120%;
     }
