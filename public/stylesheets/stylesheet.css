@@ -90,6 +90,29 @@
     width: fit-content;
 }
 
+@media (max-width: 992px) {
+    .carousel-1-content{
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-1-content{
+        width: 60%;
+    }
+    .carousel-1{
+        background-position-x: 77%;
+    }
+}
+
+@media (max-width: 576px){
+    .carousel-1-content{
+        width: 60%;
+    }
+    .carousel-1{
+        background-position-x: 70%;
+    }
+}
 
 
 /* ------------ Sobre mim ------------ */

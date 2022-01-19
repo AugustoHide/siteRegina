@@ -38,6 +38,11 @@
     border: none;
 }
 
+.navbar-toggler > svg{
+    width: 2rem;
+    height: 2rem;
+}
+
 .collapse{
     display: flex;
     justify-content: center;
