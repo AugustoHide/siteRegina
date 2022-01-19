@@ -94,6 +94,9 @@
     .carousel-1-content{
         width: 70%;
     }
+    .carousel-2{
+        background-position-x: 50%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -103,6 +106,10 @@
     .carousel-1{
         background-position-x: 77%;
     }
+    .carousel-2{
+        background-position-x: 50%;
+        background-image: url('../images/psicoterapia-mobile-mim.jpg');
+    }
 }
 
 @media (max-width: 576px){
@@ -111,6 +118,27 @@
     }
     .carousel-1{
         background-position-x: 70%;
+    }
+    .carousel-2{
+        background-position-x: 50%;
+    }
+    .carousel-2-content{
+        align-items: center;
+        justify-content: center;
+        padding-right: 0%;
+        padding-bottom: 0%;
+        margin: 0 10%;
+        width: 80%;
+    }
+    .carousel-3{
+        background-position-x: 50%;
+    }
+    .carousel-3-content{
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 0;
+        margin: 0 10%;
+        width: 80%;
     }
 }
 
@@ -122,6 +150,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 3rem 0;
 }
 
@@ -144,27 +173,81 @@
     font-family: 'Lora', serif;
 }
 
+@media (max-width: 992px){
+    .sobremim-foto{
+        height: 70%;
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 768px){
+    .sobremim-foto-div{
+        width: 60%;
+        margin: 0 20%;
+        height: 30rem;
+    }
+    .sobremim-foto{
+        width: 100%;
+        height: 90%;
+        margin: 5% 0;
+    }
+    .sobremim-texto-div{
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 576px){
+    .sobremim-foto-div{
+        height: 27.5rem;
+        width: 80%;
+        margin: 0 10%;
+        margin-bottom: 2rem;
+    }
+    .sobremim-foto{
+        width: 100%;
+        height: 90%;
+        margin: 5% 0;
+    }
+}
 
 /* ------------ Beneficios (o q melhora + como vou te ajudar) ------------ */
 .beneficios{
-    padding: 3rem;
-    padding-left: 15%;
+    padding: 3rem 15%;
     background-color: rgb(236, 233, 236);
     display: flex;
+    flex-wrap: wrap;
     font-family: 'Lora', serif;
 }
 
 .beneficios-lado-esquerdo{
-    width: 45%;
+    width: 50%;
     padding-right: 1%;
 }
 
 .beneficios-lado-direito{
-    width: 45%;
-    margin-right: 15%;
+    min-height: 20rem;
+    width: 50%; 
     background-image: url('../images/flowerCamp-min.jpg');
     background-size: cover;
     background-position-y: 40%;
+}
+
+@media (max-width: 768px){
+    .beneficios{
+        padding: 0;
+        padding: 3rem 10%;
+        flex-direction: column-reverse;
+    }
+    .beneficios-lado-esquerdo{
+        width: 100%;
+    }
+    .beneficios-lado-direito{
+        width: 100%;
+        height: 20rem;
+        margin: 2rem 0;
+        background-position-y: 40%;
+    }
 }
 
 
@@ -191,6 +274,25 @@
     padding: 3rem;
     padding-left: 15%;
 }
+
+@media (max-width: 768px){
+    .principaisTopicos{
+        padding: 0;
+        padding: 3rem 10%;
+        flex-direction: column  
+        ;
+    }
+    .principaisTratamentos-esq{
+        width: 100%;
+    }
+    .principaisTratamentos-dir{
+        width: 100%;
+        height: 20rem;
+        margin: 2rem 0;
+        background-position-y: 40%;
+    }
+}
+
 
 /* ------------ CTA ------------ */
 #barras-cta{
@@ -264,7 +366,7 @@
 }
 
 .cta-cima{
-    height: 50%;
+    min-height: 50%;
 }
 
 .cta-redes-sociais{
@@ -274,6 +376,33 @@
     width: 5%;
     height: 5%;
     margin: 1rem;
+}
+
+@media (max-width: 992px){
+    .aba-titulo{
+        min-width: 30vw;
+        padding: 1rem 1rem;
+        font-size: 120%;
+    }
+}
+
+@media (max-width: 768px){
+    .cta{
+        padding: 10% 0;
+    }
+    .nav-div > ul {
+        width: 100%;
+    }
+    .aba-titulo{
+        min-width: 30vw;
+        padding: 1rem 1rem;
+        font-size: 120%;
+    }
+    .cta-content-div-psico, .cta-content-div-alter{
+        width: 100%;
+        left: 0%;
+        padding: 2rem;
+    }
 }
 
 /* ============================================== PAGINA TERAPIAS ============================================== */
@@ -330,6 +459,7 @@
     margin-bottom: 0;
 }
 
+/* ------------ ARTICLE-TEXT-SECTION ------------ */
 .article-text-section{
     margin: 3rem 0;
     font-family: 'Lora', serif;
@@ -356,6 +486,13 @@
     align-items: center;
 }
 
+@media (max-width: 768px){
+    .a-t-s-content{
+        margin: 0 10%;
+    }
+}
+
+/* ------------ ARTICLE-TEXT-IMG ------------ */
 #criancas, #familia, #barras-beneficios, #barras-como, #biomagnetismo-beneficios{
     background-color: rgb(236, 233, 236);
 }
@@ -363,6 +500,7 @@
 .article-section-text-img{
     display: flex;
     padding: 3rem 0;
+    flex-wrap: wrap;
 }
 
 .a-s-t-i-text{
@@ -391,6 +529,7 @@
 #barras-beneficios-img{
     background-image: url('../images/barras3-min.jpg');
     background-position-y: 100%;
+    background-position-x: 50%;
 }
 
 #biomagnetismo-beneficios-img{
@@ -406,6 +545,7 @@
 #multidimensional-beneficios-img{
     background-image: url('../images/womanHappy5-min.jpg');
     background-position-y: 100%;
+    background-position-x: 50%;
 }
 
 .a-s-t-i-img-img{
@@ -415,6 +555,29 @@
     width: 100%;
 }
 
+@media (max-width: 768px){
+    .article-section-text-img{
+        padding: 2rem 10%;
+        flex-direction: column-reverse;
+    }
+    .a-s-t-i-text{
+        width: 100%;
+        margin: 0;
+    }
+    .a-s-t-i-img{
+        width: 100%;
+        margin: 0;
+        height: 30rem;
+    }
+    #crianca-img{
+        background-position-x: 75%;
+    }
+    #familia-img{
+        background-position-x: 50%;
+    }
+}
+
+/* ------------ ARTICLE-IMG-TEXT ------------ */
 .article-section-img-text{
     padding: 3rem 0;
     display: flex;
@@ -436,6 +599,7 @@
 #biomagnetismo-como-img{
     background-image: url('../images/biomagnetismo3-min.jpg');
     background-position-y: 50%;
+    background-position-x: 60%;
 }
 
 #barras-quem-img{
@@ -459,4 +623,29 @@
     width: 35%;
     padding-left: 1%;
     font-family: 'Lora', serif;
+}
+
+@media (max-width: 768px){
+    .article-section-img-text{
+        padding: 2rem 10%;
+        flex-direction: column;
+    }
+    .a-s-i-t-text{
+        width: 100%;
+        margin: 0;
+    }
+    .a-s-i-t-img{
+        width: 100%;
+        margin: 0;
+        height: 30rem;
+    }
+    #crianca-img{
+        background-position-x: 75%;
+    }
+    #casal-img{
+        background-position-x: 100%;
+    }
+    #biomagnetismo-como-img{
+        background-position-x: 60%;
+    }
 }
