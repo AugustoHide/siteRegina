@@ -396,6 +396,7 @@
     .aba-titulo{
         min-width: 30vw;
         max-width: 40vw;
+        min-height: 6rem;
         padding: 1rem 1rem;
         font-size: 120%;
     }
@@ -458,6 +459,13 @@
     background-color: rgb(236, 233, 236);
     padding: 3rem 0;
     margin-bottom: 0;
+}
+
+@media (max-width: 768px){
+    #psicoterapia{
+        background-image: url('../images/psicoterapia-mobile-mim.jpg');
+        background-position-y: 50%;
+    }
 }
 
 /* ------------ ARTICLE-TEXT-SECTION ------------ */
