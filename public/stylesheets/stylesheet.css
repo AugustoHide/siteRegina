@@ -261,14 +261,19 @@
     background-position-y: 50%;
 }
 
+#biomagnetismo{
+    background-image: url('../images/biomagnetismo1.jpg');
+    background-position-y: 30%;
+}
+
 #barras{
-    background-image: url('../images/happy.jpg');
+    background-image: url('../images/barras.jpg');
     background-position-y: 30%;
 }
 
 #multidimensional{
-    background-image: url('../images/happy.jpg');
-    background-position-y: 30%;
+    background-image: url('../images/multidimensional2.jpg');
+    background-position-y: 60%;
 
 }
 
@@ -307,6 +312,7 @@
 .a-t-s-content{
     margin: 0 15%;
     text-align: center;
+    padding: 3rem 0;
 }
 
 .a-t-s-content > h5 {
@@ -324,10 +330,7 @@
     align-items: center;
 }
 
-#criancas, #familia{
-    background-color: rgb(236, 233, 236);
-}
-#barras-beneficios{
+#criancas, #familia, #barras-beneficios, #barras-como, #biomagnetismo-beneficios{
     background-color: rgb(236, 233, 236);
 }
 
@@ -360,7 +363,22 @@
 }
 
 #barras-beneficios-img{
-    background-image: url('../images/familia.jpg');
+    background-image: url('../images/barras3.jpg');
+    background-position-y: 100%;
+}
+
+#biomagnetismo-beneficios-img{
+    background-image: url('../images/biomagnetismo2.jpg');
+    background-position-y: 100%;
+}
+
+#barras-como-img{
+    background-image: url('../images/barras4.jpg');
+    background-position-y: 100%;
+}
+
+#multidimensional-beneficios-img{
+    background-image: url('../images/womanHappy5.jpg');
     background-position-y: 100%;
 }
 
@@ -369,10 +387,6 @@
     background-position-y: 50%;
     height: 80%;
     width: 100%;
-}
-
-#biomagnetismo-beneficios{
-    background-color: rgb(236, 233, 236);
 }
 
 .article-section-img-text{
@@ -393,13 +407,18 @@
     background-position-y: 50%;
 }
 
-#biomagnetismo-beneficios-img{
-    background-image: url('../images/casal.jpg');
+#biomagnetismo-como-img{
+    background-image: url('../images/biomagnetismo3.jpg');
     background-position-y: 50%;
 }
 
-#barras-como-img{
-    background-image: url('../images/casal.jpg');
+#barras-quem-img{
+    background-image: url('../images/barras2.jpg');
+    background-position-y: 50%;
+}
+
+#multidimensional-como-img{
+    background-image: url('../images/barras2.jpg');
     background-position-y: 50%;
 }
 
