@@ -1,3 +1,4 @@
+/* ============================================== PAGINA INICIAL ============================================== */
 /* ------------ Carousel ------------ */
 .carousel-item{
     height: 75vh;
@@ -88,6 +89,8 @@
     padding: 1rem;
     width: fit-content;
 }
+
+
 
 /* ------------ Sobre mim ------------ */
 .sobremim{
@@ -250,7 +253,7 @@
     margin: 1rem;
 }
 
-/* ============================================== PAGINA TERAPIA, PSICOTERAPIA ============================================== */
+/* ============================================== PAGINA TERAPIAS ============================================== */
 .article-header{
     padding: 2rem;
     height: 75vh;
@@ -272,7 +275,7 @@
 }
 
 #multidimensional{
-    background-image: url('../images/multidimensional2-min.jpg');
+    background-image: url('../images/multidimensional3-min.jpg');
     background-position-y: 60%;
 
 }
@@ -418,8 +421,8 @@
 }
 
 #multidimensional-como-img{
-    background-image: url('../images/barras2-min.jpg');
-    background-position-y: 50%;
+    background-image: url('../images/multidimensional4-min.jpg');
+    background-position-x: 90%;
 }
 
 .a-s-i-t-img-img{
