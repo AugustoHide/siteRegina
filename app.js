@@ -20,20 +20,20 @@ app.get('/terapia-tradicional', (req, res) => {
     res.render('terapiaTradicional');
 });
 
-app.get('/terapia-alternativa', (req, res) => {
-    res.render('terapiaAlternativa');
+app.get('/orientacao-familiar', (req, res) => {
+    res.render('orientacaoFamiliar');
 });
 
-app.get('/biomagnetismo', (req, res) => {
-    res.render('biomagnetismo');
+app.get('/terapia-casal', (req, res) => {
+    res.render('terapiaCasal');
 });
 
-app.get('/barras', (req, res) => {
-    res.render('barras');
+app.get('/ansiedade-depressao', (req, res) => {
+    res.render('ansiedadeDepressao');
 });
 
-app.get('/multidimensional', (req, res) => {
-    res.render('multidimensional');
+app.get('/positiva', (req, res) => {
+    res.render('positiva');
 });
 
 app.get('/sobremim', (req, res) => {
