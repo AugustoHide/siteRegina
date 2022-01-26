@@ -402,20 +402,24 @@
     background-position-y: 50%;
 }
 
-#biomagnetismo{
-    background-image: url('../images/biomagnetismo1-min.jpg');
+#oreintacao-familiar{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1));
     background-position-y: 30%;
 }
 
-#barras{
-    background-image: url('../images/barras-min.jpg');
+#terapia-positiva{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1));
     background-position-y: 30%;
 }
 
-#multidimensional{
-    background-image: url('../images/multidimensional3-min.jpg');
-    background-position-y: 60%;
+#terapia-casal{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1));
+    background-position-y: 30%;
+}
 
+#ansiedade-depressao{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1));
+    background-position-y: 30%;
 }
 
 .a-header-content{
