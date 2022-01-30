@@ -162,7 +162,8 @@
 .sobremim-foto{
     width: 90%;
     height: 80%;
-    background-image: url('../images/aceEx.jpg');
+    background-image: url('../images/foto.jpeg');
+    background-position-y: 35%;
     background-size: cover;
     margin-top: 10%;
     border-radius: 50%;
