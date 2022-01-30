@@ -295,7 +295,7 @@
 
 
 /* ------------ CTA ------------ */
-#barras-cta{
+.back-white{
     background-color: white;
 }
 
@@ -413,12 +413,13 @@
 }
 
 #terapia-casal{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1));
-    background-position-y: 30%;
+    background-image: url('../images/casal1.jpg');
+    background-position-y: 70%;
+    background-position-x: 50%;
 }
 
 #ansiedade-depressao{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1));
+    background-image: url('../images/depressao.jpg');
     background-position-y: 30%;
 }
 
@@ -453,6 +454,12 @@
     #psicoterapia{
         background-image: url('../images/Polish_20220118_145251669-min.jpg');
         background-position-y: 50%;
+    }
+
+    #terapia-casal{
+        background-image: url('../images/casal1.jpg');
+        background-position-y: 70%;
+        background-position-x: 50%;
     }
 }
 
@@ -491,8 +498,12 @@
 }
 
 /* ------------ ARTICLE-TEXT-IMG ------------ */
-#criancas, #familia, #barras-beneficios, #barras-como, #biomagnetismo-beneficios{
+#criancas, #familia, #barras-beneficios, #barras-como, #biomagnetismo-beneficios, .back-purple{
     background-color: rgb(236, 233, 236);
+}
+
+#back-white{
+    background-color: white;
 }
 
 .article-section-text-img{
@@ -506,6 +517,7 @@
     width: 35%;
     font-family: 'Lora', serif;
     padding-right: 1%;
+    align-self: center;
 }
 
 .a-s-t-i-img{
@@ -513,6 +525,7 @@
     width: 35%;
     display: flex;
     align-items: center;
+    min-height: 15rem;
 }
 
 #segura-mao-img{
@@ -527,9 +540,9 @@
     background-position-y: 100%;
 }
 
-#barras-beneficios-img{
-    background-image: url('../images/barras3-min.jpg');
-    background-position-y: 100%;
+#casal-reconciliacao-img{
+    background-image: url('../images/casal3.jpg');
+    background-position-y: 50%;
     background-position-x: 50%;
 }
 
@@ -538,13 +551,20 @@
     background-position-y: 100%;
 }
 
-#barras-como-img{
-    background-image: url('../images/barras4-min.jpg');
+#casal-individual-img{
+    background-image: url('../images/casal2.jpg');
     background-position-y: 100%;
+    background-position-x: 30%;
 }
 
-#multidimensional-beneficios-img{
-    background-image: url('../images/womanHappy5-min.jpg');
+#ansiedade-img{
+    background-image: url('../images/ansiedade.jpg');
+    background-position-y: 100%;
+    background-position-x: 50%;
+}
+
+#depressao-tratamento-img{
+    background-image: url('../images/depressao-tratamento.jpg');
     background-position-y: 100%;
     background-position-x: 50%;
 }
@@ -552,7 +572,7 @@
 .a-s-t-i-img-img{
     background-size: cover;
     background-position-y: 50%;
-    height: 80%;
+    height: 100%;
     width: 100%;
 }
 
@@ -568,7 +588,7 @@
     .a-s-t-i-img{
         width: 100%;
         margin: 1rem 0;
-        height: 30rem;
+        height: 17.5rem;
     }
     #crianca-img{
         background-position-x: 75%;
@@ -590,6 +610,11 @@
     display: flex;
     align-items: center;
     padding-right: 1%;
+    min-height: 15rem;
+}
+
+.img-min-height{
+    min-height: 20rem;
 }
 
 #casal-img{
@@ -607,19 +632,20 @@
     background-position-x: 60%;
 }
 
-#barras-quem-img{
-    background-image: url('../images/barras2-min.jpg');
+#casal-psicologo-img{
+    background-image: url('../images/casal-briga.jpg');
     background-position-y: 50%;
+    background-position-x: center;
 }
 
-#multidimensional-como-img{
-    background-image: url('../images/multidimensional4-min.jpg');
+#depressao-img{
+    background-image: url('../images/barras2-min.jpg');
     background-position-x: 90%;
 }
 
 .a-s-i-t-img-img{
     background-size: cover;
-    height: 80%;
+    height: 100%;
     width: 100%;
 }
 
@@ -628,6 +654,7 @@
     width: 35%;
     padding-left: 1%;
     font-family: 'Lora', serif;
+    align-self: center;
 }
 
 @media (max-width: 768px){
@@ -642,7 +669,7 @@
     .a-s-i-t-img{
         width: 100%;
         margin: 1rem 0;
-        height: 30rem;
+        height: 17.5rem;
     }
     #crianca-img{
         background-position-x: 75%;
