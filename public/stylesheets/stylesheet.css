@@ -410,8 +410,9 @@
 }
 
 #terapia-positiva{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1));
-    background-position-y: 30%;
+    background-image: url('../images/barras1-min.jpg');
+    background-position-y: 80%;
+    background-position-x: 50%;
 }
 
 #terapia-casal{
@@ -457,6 +458,12 @@
         background-image: url('../images/casal1.jpg');
         background-position-y: 70%;
         background-position-x: 80%;
+    }
+
+    #terapia-positiva{
+        background-image: url('../images/barras1-min.jpg');
+        background-position-y: 100%;
+        background-position-x: 50%;
     }
 }
 
@@ -565,6 +572,12 @@
     background-image: url('../images/orientacao-familiar.jpg');
     background-position-y: 100%;
     background-position-x: 30%;
+}
+
+#empoderamento-img{
+    background-image: url('../images/barras3-min.jpg');
+    background-position-y: 50%;
+    background-position-x: 50%;
 }
 
 .a-s-t-i-img-img{
