@@ -414,13 +414,14 @@
 
 #terapia-casal{
     background-image: url('../images/casal1.jpg');
-    background-position-y: 70%;
-    background-position-x: 50%;
+    background-position-y: 60%;
+    background-position-x: 80%;
 }
 
 #ansiedade-depressao{
     background-image: url('../images/depressao.jpg');
     background-position-y: 30%;
+    background-position-x: 70%;
 }
 
 .a-header-content{
@@ -444,12 +445,6 @@
     margin-bottom: 0.5rem;
 }
 
-#barras-conclusao{
-    background-color: rgb(236, 233, 236);
-    padding: 3rem 0;
-    margin-bottom: 0;
-}
-
 @media (max-width: 768px){
     #psicoterapia{
         background-image: url('../images/Polish_20220118_145251669-min.jpg');
@@ -459,7 +454,7 @@
     #terapia-casal{
         background-image: url('../images/casal1.jpg');
         background-position-y: 70%;
-        background-position-x: 50%;
+        background-position-x: 80%;
     }
 }
 
@@ -498,7 +493,7 @@
 }
 
 /* ------------ ARTICLE-TEXT-IMG ------------ */
-#criancas, #familia, #barras-beneficios, #barras-como, #biomagnetismo-beneficios, .back-purple{
+.back-purple{
     background-color: rgb(236, 233, 236);
 }
 
@@ -546,11 +541,6 @@
     background-position-x: 50%;
 }
 
-#biomagnetismo-beneficios-img{
-    background-image: url('../images/biomagnetismo2-min.jpg');
-    background-position-y: 100%;
-}
-
 #casal-individual-img{
     background-image: url('../images/casal2.jpg');
     background-position-y: 100%;
@@ -564,13 +554,14 @@
 }
 
 #depressao-tratamento-img{
-    background-image: url('../images/depressao-tratamento.jpg');
+    background-image: url('../images/depressao-tratamento2.jpg');
     background-position-y: 100%;
     background-position-x: 50%;
 }
 
 .a-s-t-i-img-img{
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position-y: 50%;
     height: 100%;
     width: 100%;
@@ -589,6 +580,7 @@
         width: 100%;
         margin: 1rem 0;
         height: 17.5rem;
+        padding-bottom: 2rem;
     }
     #crianca-img{
         background-position-x: 75%;
@@ -624,12 +616,6 @@
     background-repeat: no-repeat;
     height: 100%;
     margin: 0;
-}
-
-#biomagnetismo-como-img{
-    background-image: url('../images/biomagnetismo3-min.jpg');
-    background-position-y: 50%;
-    background-position-x: 60%;
 }
 
 #casal-psicologo-img{
@@ -676,9 +662,6 @@
     }
     #casal-img{
         background-position-x: 100%;
-    }
-    #biomagnetismo-como-img{
-        background-position-x: 60%;
     }
 }
 
