@@ -18,6 +18,8 @@
     align-items: flex-start;
     justify-content: center;
     padding-left: 10%;
+    
+    font-family: 'Lora', serif;
 }
 
 .carousel-1-content > h1 {

@@ -3024,6 +3024,10 @@ textarea.form-control-lg {
   font-family: 'Lora', serif;
   width: fit-content;
 }
+@media (max-width: 576px){
+  .btn-cta{
+    width:max-content;
+  }
 }
 
 .btn-primary {
