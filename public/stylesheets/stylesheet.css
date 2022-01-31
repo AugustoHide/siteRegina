@@ -156,6 +156,11 @@
     margin: 3rem 0;
 }
 
+#sobrePgHome{
+    display: flex; 
+    flex-direction: row-reverse;
+}
+
 .sobremim-foto-div{
     width: 20%;
     height: 50vh;
@@ -174,6 +179,10 @@
 .sobremim-texto-div{
     width: 50%;
     font-family: 'Lora', serif;
+}
+
+#sobremim-texto-home{
+    padding-right: 5%;
 }
 
 @media (max-width: 992px){
@@ -197,6 +206,9 @@
     .sobremim-texto-div{
         width: 80%;
         margin: 0 10%;
+    }
+    #sobremim-texto-home{
+        padding-right: 0%;
     }
 }
 
@@ -258,6 +270,7 @@
 .principaisTopicos{
     display: flex;
     margin: 3rem 0;
+    padding: 1rem 0;
 }
 
 .principaisTratamentos-dir{
@@ -265,7 +278,7 @@
     width: 45%;
     background-image: url('../images/Polish_20220123_182219777-min.jpg');
     background-size: cover;
-    background-position-y: 65%;
+    background-position: 50% 50%;
 }
 
 .principaisTratamentos-esq{
@@ -305,7 +318,7 @@
 .cta{
     background-color: #d9d2e6;
     min-height: 70vh;
-    padding: 10%;
+    padding: 5% 10%;
 }
 
 .nav-div{
