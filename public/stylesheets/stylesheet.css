@@ -43,10 +43,12 @@
 
 
 .carousel-2{
-    background-image: url('../images/psicoterapia-min.jpg');
+    background-image: url('../images/depressao.jpg');
     background-size: cover;
-    background-position-y: 50%;
+    background-position-y: 30%;
+    background-position-x: 0%;
     font-family: 'Lora', serif;
+    padding-left: 10%;
 }
 
 .carousel-2-content{
@@ -54,44 +56,48 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    justify-content: end;
-    padding-right: 10%;
-    padding-bottom: 2.5%;
+    align-items: flex-start;
+    justify-content: center;
     color: #f4dcfd;
 }
 
 .carousel-2-content-background{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     padding: 1rem;
 }
 
 
 .carousel-3{
-    background-image: url('../images/womanHappy5-min.jpg');
+    background-image: url('../images/casal-home-min.jpg');
     background-size: cover;
-    background-position-y: 30%;
+    background-position-y: 100%;
+    background-position-x: 0%;
     font-family: 'Lora', serif;
+    padding: 2.5% 10%;
 }
 
 .carousel-3-content{
-    text-align: center;
-    width: 100%;
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
     align-items: center;
-    padding-bottom: 5%;
-    color: white;
+    justify-content: flex-end;
+    color: #f4dcfd;
 }
 
 .carousel-3-content-background{
-    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65));
+    background-image: linear-gradient(rgba(34, 8, 30, 0.3),rgba(0,0,0,0.5));
     padding: 1rem;
-    width: fit-content;
 }
 
+.carousel-4{
+    background-image: url('../images/orientacao-familiar2.jpg');
+    background-size: cover;
+    background-position-y: 30%;
+    background-position-x: 50%;
+    font-family: 'Lora', serif;
+    padding: 2.5% 10%;
+}
 @media (max-width: 992px) {
     .carousel-1-content{
         width: 70%;
@@ -110,7 +116,13 @@
     }
     .carousel-2{
         background-position-x: 50%;
-        background-image: url('../images/Polish_20220118_145251669-min.jpg');
+    }
+    .carousel-3-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start;
+        padding-bottom: 0;
+        padding-top: 2.5%;
     }
 }
 
@@ -122,26 +134,20 @@
         background-position-x: 70%;
     }
     .carousel-2{
-        background-position-x: 50%;
+        background-position-x: 80%;
     }
     .carousel-2-content{
         align-items: center;
-        justify-content: center;
+        justify-content: end;
         padding-right: 0%;
-        padding-bottom: 0%;
-        margin: 0 10%;
+        padding-bottom: 2.5%;
+        margin: 0 5%;
         width: 80%;
     }
     .carousel-3{
         background-position-x: 50%;
     }
-    .carousel-3-content{
-        flex-direction: column;
-        justify-content: center;
-        padding-bottom: 0;
-        margin: 0 10%;
-        width: 80%;
-    }
+    
 }
 
 
@@ -703,7 +709,7 @@
         background-position-x: 75%;
     }
     #casal-img{
-        background-position-x: 100%;
+        background-position-x: 50%;
     }
 }
 
