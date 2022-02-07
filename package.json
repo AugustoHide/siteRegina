@@ -19,6 +19,7 @@
   "dependencies": {
     "ejs-mate": "^3.0.0",
     "express": "^4.17.2",
+    "helmet": "^5.0.2",
     "path": "^0.12.7"
   }
 }
